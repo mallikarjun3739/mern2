@@ -17,7 +17,6 @@ export default User;
 
 function tick(){
     const element = (
-        <h2>It is {new Date().toDateString()}</h2>,
         <h2>It is {new Date().toDateString()}</h2>
     )
     ReactDOM.render(element,document.getElementById('root'))
